@@ -6,7 +6,7 @@ This guide will walk you through creating a simple SvelteKit Hexadecimal Calcula
 
 ## **Functional Requirements for Hexadecimal Calculator Application**
 
-#### **1. Core Functionality**
+#### **1. Arithmetic Functionality**
 1.1. The application should perform **addition** on two hexadecimal numbers.  
 1.2. The application should perform **subtraction** on two hexadecimal numbers.  
 1.3. The application should perform **multiplication** on two hexadecimal numbers.  
@@ -38,31 +38,15 @@ This guide will walk you through creating a simple SvelteKit Hexadecimal Calcula
 
 ---
 
-#### **5. User Interface**
-5.1. The application should provide a **user-friendly interface** for inputting hexadecimal values.  
-5.2. The application should display **clear labels** for input fields and operation buttons (e.g., "Add", "Subtract", "Multiply", "Divide").  
-5.3. The application should display the **result prominently** after each calculation.  
-
----
-
-#### **6. Performance**
-6.1. The application should perform calculations **instantaneously** for valid inputs.  
-6.2. The application should handle invalid inputs and edge cases **without crashing**.  
-
----
-
 ### **Categories Summary**
-1. **Core Functionality**: Basic arithmetic operations.  
+1. **Arithmetic Functionality**: Basic arithmetic operations.  
 2. **Input Handling**: Rules and validation for input values.  
 3. **Output Handling**: Rules and formatting for output values.  
 4. **Error Handling**: Handling invalid inputs and edge cases.  
-5. **User Interface**: Design and usability of the application.  
-6. **Performance**: Speed and reliability of the application.  
-7. **Example Scenarios**: Demonstrations of valid and invalid use cases.  
 
 ---
 
-With the core functional requirements completed we can start with the building of the application
+With the Calculator functional requirements completed we can start with the building of the application
 
 ## **Videos**
 
