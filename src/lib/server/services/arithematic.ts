@@ -1,12 +1,5 @@
+import type { HexCalcResult } from '$lib/server/types'
 type HexOperation = 'add' | 'subtract' | 'multiply' | 'divide';
-
-interface HexCalcResult {
-  success: boolean;
-  result?: string;
-  error?: string;
-  inputA?: string;
-  inputB?: string;
-}
 
 function isValidHex2Digit(input: string): boolean {
   return /^[0-9A-Fa-f]{1,2}$/.test(input);
