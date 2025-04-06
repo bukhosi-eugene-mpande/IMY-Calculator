@@ -49,7 +49,7 @@ export function hexCalc(
 
   // Clamp result to 4-digit hex
   if (resultNum > 0xFFFF) {
-    return { success: false, error: "Output exceeds 4-digit hex limit (0x0000–0xFFFF).", inputA, inputB };
+    return { success: false, error: "Output exceeds 4-digit hex limit (0x0000-0xFFFF).", inputA, inputB };
   }
 
   const hexResult = resultNum.toString(16).toUpperCase().padStart(4, '0');

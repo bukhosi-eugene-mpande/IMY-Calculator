@@ -1,5 +1,5 @@
 import type { Actions } from './$types';
-import { hexCalc } from '$lib/server/services/arithematic'; // adjust this path as needed
+import { hexCalc } from '$lib/server/services/arithematic';
 
 export const actions: Actions = {
   default: async ({ request }) => {
