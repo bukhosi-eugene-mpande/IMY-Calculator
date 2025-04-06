@@ -57,6 +57,13 @@ In order to make the process easier videos have been made to aid in the creation
    - Video Two Dev Tools setup: [YouTube](https://youtu.be/r2JDRXaYHrw).
    - Video One Repository setup: [YouTube](https://youtu.be/YionoI4tIBY).
 
+## **Section 2 videos**
+
+1. **YouTube Links**:
+   - Video One Demo tests: [YouTube](https://youtu.be/NCJzVS8DNa0).
+   - Video Two Creation of a test: [YouTube](https://youtu.be/-XebVIbhXCI).
+   - Video One Github Action setup: [YouTube](https://youtu.be/LeDR6iCHdE0).
+
 ## Prerequisites
 
 Before we start, you'll need to install the following tools:
