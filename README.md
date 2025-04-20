@@ -52,6 +52,8 @@ With the Calculator functional requirements completed we can start with the buil
 
 In order to make the process easier videos have been made to aid in the creation of the application
 
+## **Section 1 videos**
+
 1. **YouTube Links**:
    - Video One Functional requirements: [YouTube](https://youtu.be/zXS5BYm2K9s).
    - Video Two Dev Tools setup: [YouTube](https://youtu.be/r2JDRXaYHrw).

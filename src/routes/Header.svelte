@@ -35,7 +35,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/bukhosi-eugene-mpande/IMY-Calculator">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>

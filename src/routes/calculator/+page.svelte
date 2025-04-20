@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Hex Calculator</title>
+  <title>Hexadecimal Calculator</title>
   <meta name="description" content="Mobile-friendly hexadecimal calculator with full button interface" />
 </svelte:head>
 
@@ -67,7 +67,7 @@
     {/if}
 
     <!-- Buttons grid -->
-    <div class="grid grid-cols-4 gap-2">
+    <div data-testid="btn-grid" class="grid grid-cols-4 gap-2">
       {#each hexDigits as digit}
         <button
           type="button"
@@ -83,11 +83,11 @@
       <button type="button" class="bg-yellow-400 hover:bg-yellow-500 rounded-lg" on:click={() => setOperation('multiply')}>x</button>
       <button type="button" class="bg-yellow-400 hover:bg-yellow-500 rounded-lg" on:click={() => setOperation('divide')}>÷</button>
 
-      <button type="button" class="col-span-2 bg-red-400 hover:bg-red-500 rounded-lg" on:click={clearAll}>C</button>
+      <button type="button" class="col-span-2 bg-red-400 hover:bg-red-500 rounded-lg" data-testid="clear-all-btn" on:click={clearAll}>C</button>
     </div>
 
     <!-- Enhanced form -->
-    <form method="POST" use:enhance>
+    <form method="POST" use:enhance data-testid="hex-form">
       <input type="hidden" name="inputA" value={inputA} />
       <input type="hidden" name="inputB" value={inputB} />
       <input type="hidden" name="operation" value={operation} />
