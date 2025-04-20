@@ -24,7 +24,14 @@ jobs:
           bun-version: latest
       - name: Install dependencies
         run: bun install
-      - name: Run dev server and tests
+      - name: Run Unit test
         run: bun run test
+      - name: Run dev server and e2e tests
+        run: |
+          bun run dev &
+          npx wait-on http://localhost:5173
+          bun run test:e2e
+          kill $!
         env:
           NODE_ENV: development
+          DATABASE_URL: "postgres://root:mysecretpassword@localhost:5432/local"
