@@ -5,7 +5,6 @@
 
 <script lang="ts">
   import { enhance } from '$app/forms';
-  import toast, { Toaster } from 'svelte-french-toast';
 
   export let form: any; // Use standard prop declaration
   let inputA = form?.inputA || '';
@@ -37,8 +36,6 @@
     form = null;
   }
 </script>
-
-<Toaster />
   
 <div class="min-h-screen p-4">
   <div class="max-w-xs mx-auto bg-white rounded-2xl shadow-lg p-4">
