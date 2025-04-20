@@ -24,6 +24,9 @@ jobs:
 
       - name: Build project
         run: bun run build
+        env:
+          NODE_ENV: development
+          DATABASE_URL: "postgres://root:mysecretpassword@localhost:5432/local"
 
       - name: Run Cypress tests
         uses: cypress-io/github-action@v6
@@ -36,4 +39,4 @@ jobs:
           wait-on-timeout: 120
         env:
           NODE_ENV: development
-          DATABASE_URL: "postgres://dummy:password@localhost:5432/fake"
+          DATABASE_URL: "postgres://root:mysecretpassword@localhost:5432/local"
