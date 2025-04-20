@@ -24,7 +24,5 @@ jobs:
           bun-version: latest
       - name: Install dependencies
         run: bun install
-      - name: Run dev server
-        run: bun run dev
       - name: Run Tests
         run: bun run test:e2e
