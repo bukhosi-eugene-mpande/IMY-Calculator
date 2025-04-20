@@ -30,7 +30,7 @@ jobs:
         run: |
           bun run dev &
           npx wait-on http://localhost:5173
-          bun run test:e2e
+          bun run test:e2e -- --no-runner-ui 
           kill $!
         env:
           NODE_ENV: development
