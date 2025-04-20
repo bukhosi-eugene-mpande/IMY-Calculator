@@ -45,7 +45,7 @@
     <h1 class="text-xl font-bold text-center mb-4">Hexadecimal Calculator</h1>
 
     <!-- Display area -->
-    <div class="bg-gray-50 rounded-lg p-3 mb-4">
+    <div data-testid="hex-calc-display" class="bg-gray-50 rounded-lg p-3 mb-4">
       <div class="text-gray-600 text-sm h-6">
         {activeInput === 'A' ? 'Entering A' : 'Entering B'}
       </div>
@@ -57,13 +57,13 @@
         {/if}
         {inputB}
       </div>
-      <div class="text-right text-sm text-gray-600">
+      <div data-testid="hex-calc-result-display" class="text-right text-sm text-gray-600">
         {#if form?.result}Result: {form.result}{/if}
       </div>
     </div>
 
     {#if form?.error}
-      <div class="text-red-500 text-sm mb-2">⚠️ {form.error}</div>
+      <div data-testid="error-display" class="text-red-500 text-sm mb-2">⚠️ {form.error}</div>
     {/if}
 
     <!-- Buttons grid -->
