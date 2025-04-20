@@ -66,6 +66,14 @@ In order to make the process easier videos have been made to aid in the creation
    - Video Two Creation of a test: [YouTube](https://youtu.be/-XebVIbhXCI).
    - Video One Github Action setup: [YouTube](https://youtu.be/LeDR6iCHdE0).
 
+## **Section 3 videos**
+
+**YouTube Links**:
+   - Video One Unit tests: [YouTube](https://youtu.be/ic6gEiNRHus).
+   - Video Two End to End tests: [YouTube](https://youtu.be/GBAxXsAqLxw).
+   - Video One Building the Ui: [YouTube](https://youtu.be/7pA_pX4XSqo).
+   - Video One Test Automation: [YouTube](https://youtu.be/ycEcK2RKl00).
+
 ## Prerequisites
 
 Before we start, you'll need to install the following tools:
