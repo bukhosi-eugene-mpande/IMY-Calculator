@@ -4,7 +4,7 @@ FROM node:20
 # Create app directory
 WORKDIR /app
 
-# Install bun (if you're using it for `bun run`)
+# Install bun
 RUN curl -fsSL https://bun.sh/install | bash && \
     mv /root/.bun/bin/bun /usr/local/bin/bun
 

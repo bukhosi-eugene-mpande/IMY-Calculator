@@ -74,6 +74,14 @@ In order to make the process easier videos have been made to aid in the creation
    - Video One Building the Ui: [YouTube](https://youtu.be/7pA_pX4XSqo).
    - Video One Test Automation: [YouTube](https://youtu.be/ycEcK2RKl00).
 
+## **Section 4 videos**
+
+**YouTube Links**:
+   - Video One Building a DockerFile: [YouTube](https://youtu.be/SeRIkhr7F_I).
+   - Video Two Using the DockerFile: [YouTube](https://youtu.be/CO_BimPt-vw).
+   - Video One Using AWS ECR: [YouTube](https://youtu.be/BCkqtv1E3HI).
+   - Video One Using AWS ECs: [YouTube](https://youtu.be/KfbFAglL2C0).
+
 ## Prerequisites
 
 Before we start, you'll need to install the following tools:
