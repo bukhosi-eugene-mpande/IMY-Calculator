@@ -25,6 +25,7 @@
 		"build-storybook": "storybook build"
 	},
 	"devDependencies": {
+		"cypress": "^14.3.1",
 		"@chromatic-com/storybook": "^3",
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
@@ -73,7 +74,6 @@
 		"@inlang/paraglide-js": "^2.0.0",
 		"@oslojs/crypto": "^1.0.1",
 		"@oslojs/encoding": "^1.1.0",
-		"cypress": "^14.3.1",
 		"drizzle-orm": "^0.40.0",
 		"postgres": "^3.4.5"
 	}
