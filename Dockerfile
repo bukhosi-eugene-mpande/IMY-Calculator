@@ -1,20 +1,24 @@
-# Use Bun base image (lighter and optimized for Bun apps)
-FROM oven/bun:1.0.25
+# Use official Node image
+FROM node:20
 
-# Set working directory
+# Create app directory
 WORKDIR /app
 
-# Copy everything
+# Install bun (if you're using it for `bun run`)
+RUN curl -fsSL https://bun.sh/install | bash && \
+    mv /root/.bun/bin/bun /usr/local/bin/bun
+
+# Copy project files
 COPY . .
 
 # Install dependencies
-RUN bun install --production
+RUN bun install
 
 # Build the SvelteKit app
 RUN bun run build
 
-# Expose the Vite preview port
+# Expose Vite preview port
 EXPOSE 4173
 
-# Run the preview server and listen on all interfaces
+# Run preview server
 CMD ["bun", "run", "preview", "--", "--host", "0.0.0.0"]

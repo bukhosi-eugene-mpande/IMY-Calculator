@@ -1,28 +1,5 @@
-version: "3.8"
-
 services:
-  db:
-    image: postgres
-    restart: always
-    ports:
-      - "5432:5432"
-    environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: mysecretpassword
-      POSTGRES_DB: local
-    volumes:
-      - pgdata:/var/lib/postgresql/data
-
   web:
     build: .
     ports:
       - "4173:4173"
-    depends_on:
-      - db
-    environment:
-      # Replace with your actual DATABASE_URL logic if needed
-      DATABASE_URL: postgres://root:mysecretpassword@db:5432/local
-
-volumes:
-  pgdata:
-
